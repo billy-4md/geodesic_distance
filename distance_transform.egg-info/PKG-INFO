@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: distance-transform
+Version: 0.1.0
+Summary: Geodesic distance transform implementation
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: numpy>=1.7.0

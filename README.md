@@ -18,10 +18,14 @@ A comparison of fast marching and ranster scan for 2D geodesic distance transfor
 This repository provides a cpp implementation of fast marching and raster scan for 2D/3D geodesic distance transforms, and proivdes a python interface to use it. This is part of the work of DeepIGeoS [4]. If you use our code, please cite this paper.  https://arxiv.org/abs/1707.00652
 
 # How to use
-1, build the cpp files with python, run `python setup.py build`
+1, Make sure you have the required build tools, run `sudo apt-get install build-essential python3-dev`
 
-2, install the package to default python path, run `python setup.py install`
+2, Activate your Anaconda env, run `conda activate [anaconda_environment]`
 
-3, see a 2D example, run `python test2d.py`
+3, Install the build requirements, run `pip install numpy setuptools wheel`
 
-4, see a 3D example, run `python test3d.py`
+4, Build and install the package, run `pip install .`
+
+5, See a 2D example, run `python test2d.py`
+
+6, See a 3D example, run `python test3d.py`
